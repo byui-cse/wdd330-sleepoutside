@@ -7,6 +7,9 @@ function productCardTemplate(product) {
       <h2 class="card__brand">${product.Brand.Name}</h2>
       <h3 class="card__name">${product.Name}</h3>
       <p class="product-card__price">$${product.FinalPrice}</p>
+      <p class="product-card__reviews">
+        ${product.reviews ? `Average Rating: ${product.reviews.reduce((sum, review) => sum + review.rating, 0) / product.reviews.length} (${product.reviews.length} Reviews)` : 'No reviews yet'}
+      </p>
     </a>
   </li>`;
 }

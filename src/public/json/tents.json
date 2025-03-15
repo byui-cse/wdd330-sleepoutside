@@ -4,7 +4,6 @@
     "NameWithoutBrand": "Ajax Tent - 3-Person, 3-Season",
     "Name": "Marmot Ajax Tent - 3-Person, 3-Season",
     "Image": "../images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -20,14 +19,25 @@
       "Name": "Marmot"
     },
     "ListPrice": 199.99,
-    "FinalPrice": 199.99
+    "FinalPrice": 199.99,
+    "reviews": [
+      {
+        "user": "Camper123",
+        "rating": 5,
+        "comment": "Great tent! Easy to set up and very spacious."
+      },
+      {
+        "user": "NatureLover",
+        "rating": 4,
+        "comment": "Good quality tent for the price."
+      }
+    ]
   },
   {
     "Id": "985RF",
     "NameWithoutBrand": "Talus Tent - 4-Person, 3-Season",
     "Name": "The North Face Talus Tent - 4-Person, 3-Season",
     "Image": "../images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -42,14 +52,25 @@
       "Name": "The North Face"
     },
     "ListPrice": 199.99,
-    "FinalPrice": 199.99
+    "FinalPrice": 199.99,
+    "reviews": [
+      {
+        "user": "HikerGirl",
+        "rating": 4,
+        "comment": "Spacious and comfortable for 4 people."
+      },
+      {
+        "user": "OutdoorFan",
+        "rating": 3,
+        "comment": "A bit heavy, but overall a good tent."
+      }
+    ]
   },
   {
     "Id": "989CG",
     "NameWithoutBrand": "Talus Tent - 3-Person, 3-Season",
     "Name": "The North Face Talus Tent - 3-Person, 3-Season",
     "Image": "../images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -64,14 +85,25 @@
       "Name": "The North Face"
     },
     "ListPrice": 179.99,
-    "FinalPrice": 179.99
+    "FinalPrice": 179.99,
+    "reviews": [
+      {
+        "user": "Explorer55",
+        "rating": 5,
+        "comment": "Perfect for backpacking trips."
+      },
+      {
+        "user": "AdventureTime",
+        "rating": 4,
+        "comment": "Easy setup and lightweight."
+      }
+    ]
   },
   {
     "Id": "985PR",
     "NameWithoutBrand": "Alpine Guide Tent - 3-Person, 4-Season",
     "Name": "The North Face Alpine Guide Tent - 3-Person, 4-Season",
     "Image": "../images/tents/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -86,14 +118,25 @@
       "Name": "The North Face"
     },
     "ListPrice": 349.99,
-    "FinalPrice": 349.99
+    "FinalPrice": 349.99,
+    "reviews": [
+      {
+        "user": "MountainMan",
+        "rating": 5,
+        "comment": "Excellent tent for harsh weather conditions."
+      },
+      {
+        "user": "ExtremeCamper",
+        "rating": 4,
+        "comment": "Reliable and durable."
+      }
+    ]
   },
   {
     "Id": "880RT",
     "NameWithoutBrand": "Ajax Tent - 2-Person, 3-Season",
     "Name": "Marmot Ajax Tent - 2-Person, 3-Season",
     "Image": "../images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -108,16 +151,26 @@
       "Name": "Marmot"
     },
     "ListPrice": 179.99,
-    "FinalPrice": 179.99
+    "FinalPrice": 179.99,
+    "reviews": [
+      {
+        "user": "SoloHiker",
+        "rating": 4,
+        "comment": "Perfect for solo adventures."
+      },
+      {
+        "user": "BudgetCamper",
+        "rating": 3,
+        "comment": "Good value for the price."
+      }
+    ]
   },
-
   {
     "Id": "344YJ",
     "NameWithoutBrand": "Rimrock Tent - 2-Person, 3-Season",
     "Name": "Cedar Ridge Rimrock Tent - 2-Person, 3-Season",
     "IsFamousBrand": false,
     "Image": "../images/tents/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg",
-
     "SizesAvailable": {},
     "Colors": [
       {
@@ -132,6 +185,18 @@
       "Name": "Cedar Ridge"
     },
     "ListPrice": 69.99,
-    "FinalPrice": 69.99
+    "FinalPrice": 69.99,
+    "reviews": [
+      {
+        "user": "WeekendWarrior",
+        "rating": 4,
+        "comment": "Great for weekend camping trips."
+      },
+      {
+        "user": "FirstTimeCamper",
+        "rating": 5,
+        "comment": "Easy to set up, perfect for beginners."
+      }
+    ]
   }
 ]

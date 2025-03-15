@@ -61,7 +61,19 @@
         "Name": "Mountain Hardwear"
       },
       "ListPrice": 99.99,
-      "FinalPrice": 99.99
+      "FinalPrice": 99.99,
+      "reviews": [
+        {
+          "user": "SleepyCamper",
+          "rating": 5,
+          "comment": "Warm and comfortable!"
+        },
+        {
+          "user": "NightOwl",
+          "rating": 4,
+          "comment": "Great for cool nights."
+        }
+      ]
     },
     {
       "Id": "21KMF",
@@ -111,7 +123,19 @@
         "Name": "Marmot"
       },
       "ListPrice": 149.99,
-      "FinalPrice": 149.99
+      "FinalPrice": 149.99,
+      "reviews": [
+        {
+          "user": "CoupleCamper",
+          "rating": 5,
+          "comment": "Perfect for couples!"
+        },
+        {
+          "user": "SharingIsCaring",
+          "rating": 4,
+          "comment": "Warm and cozy."
+        }
+      ]
     },
     {
       "Id": "640GU",
@@ -154,7 +178,19 @@
         "Name": "Therm-a-Rest"
       },
       "ListPrice": 49,
-      "FinalPrice": 49
+      "FinalPrice": 49,
+      "reviews": [
+        {
+          "user": "ComfortSeeker",
+          "rating": 5,
+          "comment": "Super comfortable and easy to inflate!"
+        },
+        {
+          "user": "BaseCampKing",
+          "rating": 4,
+          "comment": "Great for base camping."
+        }
+      ]
     },
     {
       "Id": "861PY",
@@ -237,7 +273,19 @@
         "Name": "Kelty"
       },
       "ListPrice": 34.99,
-      "FinalPrice": 34.99
+      "FinalPrice": 34.99,
+      "reviews": [
+        {
+          "user": "SummerCamper",
+          "rating": 5,
+          "comment": "Perfect for summer camping!"
+        },
+        {
+          "user": "MildWeatherLover",
+          "rating": 4,
+          "comment": "Great for mild weather."
+        }
+      ]
     },
     {
       "Id": "16PWY",
@@ -285,7 +333,19 @@
         "Name": "Klymit"
       },
       "ListPrice": 39.99,
-      "FinalPrice": 39.99
+      "FinalPrice": 39.99,
+      "reviews": [
+        {
+          "user": "LightweightBackpacker",
+          "rating": 5,
+          "comment": "Super lightweight and compact!"
+        },
+        {
+          "user": "BudgetTraveler",
+          "rating": 4,
+          "comment": "Great value for the price."
+        }
+      ]
     },
     {
       "Id": "14GVH",
@@ -335,7 +395,19 @@
         "Name": "Marmot"
       },
       "ListPrice": 189.99,
-      "FinalPrice": 189.99
+      "FinalPrice": 189.99,
+      "reviews": [
+        {
+          "user": "ColdWeatherCamper",
+          "rating": 5,
+          "comment": "Excellent for cold weather camping!"
+        },
+        {
+          "user": "DownLover",
+          "rating": 4,
+          "comment": "Warm and comfortable down bag."
+        }
+      ]
     },
     {
       "Id": "621CP",
@@ -354,853 +426,4 @@
       "IsFamousBrand": false,
       "Images": {
         "PrimarySmall": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp_01~600.jpg",
-        "ExtraImages": null
-      },
-      "SizesAvailable": {
-        "HAND": ["LH"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Turf Green/Garden Green",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/621cp-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Marmot&#39;s 30&#176;F Trestles Elite sleeping bag promises to keep you toasty-warm in near-freezing weather with HL-ElixR&#174; synthetic insulation that&#39;s a smart combination of three fibers to efficiently trap heat, maintain <a class=\"glossaryTermLink\" href=\"/loft~g~1920\" title=\"Loft: - Loft refers to the amount of “dead space” or air throughout an insulating material inside a sleeping bag or garment. Since small air pockets evenly dispersed within insulation increase the insulating ability, loft is an important factor that determines how warm an article will be. Loft essentially describes the “puffiness” of down or synthetic insulation.\">loft</a> and feel soft and comfortable.",
-      "SuggestedRetailPrice": 104.99,
-      "Brand": {
-        "Id": "1308",
-        "Url": "/api/1.0/brand/1308/",
-        "ProductsUrl": "/api/1.0/products/marmot~b~1308/",
-        "LogoSrc": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women~b~1308~160x100.jpg",
-        "Name": "Marmot"
-      },
-      "ListPrice": 79.99,
-      "FinalPrice": 79.99
-    },
-    {
-      "Id": "10HGH",
-      "IsClearance": false,
-      "IsNew": true,
-      "Url": "/api/1.0/product/10hgh/",
-      "WebUrl": "https://www.sierra.com/product/bounce/10hgh/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/10hgh/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/10hgh/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "50°F Gormsson Sleeping Bag - Mummy, Long",
-      "Name": "Nordisk 50°F Gormsson Sleeping Bag - Mummy, Long",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long-in-limoges-blue~p~10hgh_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long-in-limoges-blue~p~10hgh_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long-in-limoges-blue~p~10hgh_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long-in-limoges-blue~p~10hgh_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long~a~10hgh_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Limoges Blue",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/10hgh-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long-in-limoges-blue~p~10hgh_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong>Excess</strong>. Recharge under the stars with Nordisk&#39;s 50&#176;F Gormsson sleeping bag, made from smooth, water-resistant <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> with high-loft synthetic insulation and a roomy footbox for maximum comfort.",
-      "SuggestedRetailPrice": 190,
-      "Brand": {
-        "Id": "33133",
-        "Url": "/api/1.0/brand/33133/",
-        "ProductsUrl": "/api/1.0/products/nordisk~b~33133/",
-        "LogoSrc": "https://i.stpost.com/nordisk-50-f-gormsson-sleeping-bag-mummy-long~b~33133~160x100.jpg",
-        "Name": "Nordisk"
-      },
-      "ListPrice": 129.99,
-      "FinalPrice": 129.99
-    },
-    {
-      "Id": "14GVF",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/14gvf/",
-      "WebUrl": "https://www.sierra.com/product/bounce/14gvf/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/14gvf/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/14gvf/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)",
-      "Name": "Marmot 5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women~a~14gvf_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Rusted Orange/Mahogany",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/14gvf-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Rampart sleeping bag, fortified with 650 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> down insulation for ultimate comfort and warmth.",
-      "SuggestedRetailPrice": 315,
-      "Brand": {
-        "Id": "1308",
-        "Url": "/api/1.0/brand/1308/",
-        "ProductsUrl": "/api/1.0/products/marmot~b~1308/",
-        "LogoSrc": "https://i.stpost.com/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women~b~1308~160x100.jpg",
-        "Name": "Marmot"
-      },
-      "ListPrice": 229.99,
-      "FinalPrice": 229.99
-    },
-    {
-      "Id": "14HDK",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/14hdk/",
-      "WebUrl": "https://www.sierra.com/product/bounce/14hdk/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/14hdk/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/14hdk/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "45° F Traveler Sleeping Bag - Mummy (For Men and Women)",
-      "Name": "Marmot 45° F Traveler Sleeping Bag - Mummy (For Men and Women)",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women-in-redstone~p~14hdk_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women-in-redstone~p~14hdk_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women-in-redstone~p~14hdk_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women-in-redstone~p~14hdk_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women~a~14hdk_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Redstone",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/14hdk-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women-in-redstone~p~14hdk_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. The super-packable design of Marmot&#39;s 45&#176;F Traveler sleeping bag makes it perfect for world travel and bicycle touring. Highly compressible, yet lofty Spirafil&#174; insulation retains warmth when wet.",
-      "SuggestedRetailPrice": 110,
-      "Brand": {
-        "Id": "1308",
-        "Url": "/api/1.0/brand/1308/",
-        "ProductsUrl": "/api/1.0/products/marmot~b~1308/",
-        "LogoSrc": "https://i.stpost.com/marmot-45-f-traveler-sleeping-bag-mummy-for-men-and-women~b~1308~160x100.jpg",
-        "Name": "Marmot"
-      },
-      "ListPrice": 79.99,
-      "FinalPrice": 79.99
-    },
-    {
-      "Id": "10HKN",
-      "IsClearance": false,
-      "IsNew": true,
-      "Url": "/api/1.0/product/10hkn/",
-      "WebUrl": "https://www.sierra.com/product/bounce/10hkn/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/10hkn/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/10hkn/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "14°F Oscar Sleeping Bag - Mummy, Long",
-      "Name": "Nordisk 14°F Oscar Sleeping Bag - Mummy, Long",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hkn_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hkn_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hkn_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hkn_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long~a~10hkn_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Mustard",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/10hkn-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hkn_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong>Excess</strong>. Stay warm while camping in extreme conditions with Nordisk&#39;s 14&#176;F Oscar sleeping bag, featuring a body-hugging <a class=\"glossaryTermLink\" href=\"/mummy~g~1946\" title=\"Mummy: - Mummy refers to the shape of sleeping bags designed to provide maximum warmth. Mummy-shaped bags taper from the head to the foot, reducing their volume and surface area, improving overall heat-retention properties. Mummy bags are typically more lightweight and take up less space than rectangular bags, which makes them ideal for backpacking.\">mummy</a> shape with Northguard S-Core insulation and an innovative tubic construction that traps air in for even heat distribution while pushing moisture out for maximum warmth and comfort.",
-      "SuggestedRetailPrice": 400,
-      "Brand": {
-        "Id": "33133",
-        "Url": "/api/1.0/brand/33133/",
-        "ProductsUrl": "/api/1.0/products/nordisk~b~33133/",
-        "LogoSrc": "https://i.stpost.com/nordisk-14-f-oscar-sleeping-bag-mummy-long~b~33133~160x100.jpg",
-        "Name": "Nordisk"
-      },
-      "ListPrice": 279.99,
-      "FinalPrice": 279.99
-    },
-    {
-      "Id": "14GVG",
-      "IsClearance": true,
-      "IsNew": false,
-      "Url": "/api/1.0/product/14gvg/",
-      "WebUrl": "https://www.sierra.com/product/bounce/14gvg/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/14gvg/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/14gvg/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
-      "Name": "Marmot 20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women~a~14gvg_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Ocean/Sea Scape",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/14gvg-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Sawatch sleeping bag, fortified with 650 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> down insulation for ultimate comfort and warmth.",
-      "SuggestedRetailPrice": 260,
-      "Brand": {
-        "Id": "1308",
-        "Url": "/api/1.0/brand/1308/",
-        "ProductsUrl": "/api/1.0/products/marmot~b~1308/",
-        "LogoSrc": "https://i.stpost.com/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women~b~1308~160x100.jpg",
-        "Name": "Marmot"
-      },
-      "ListPrice": 133,
-      "FinalPrice": 133
-    },
-    {
-      "Id": "16PWT",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/16pwt/",
-      "WebUrl": "https://www.sierra.com/product/bounce/16pwt/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/16pwt/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/16pwt/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "Cloud Sleeping Pad - Inflatable",
-      "Name": "PEAK SLUMBER Cloud Sleeping Pad - Inflatable",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable-in-blue~p~16pwt_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable-in-blue~p~16pwt_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable-in-blue~p~16pwt_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable-in-blue~p~16pwt_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable~a~16pwt_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Blue",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/16pwt-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable-in-blue~p~16pwt_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Rest comfortably in the Great Outdoors with Peak Slumber&#39;s Cloud sleeping pad, made from durable ripstop fabric with a supportive, easy-to-inflate design.",
-      "SuggestedRetailPrice": 50,
-      "Brand": {
-        "Id": "39056",
-        "Url": "/api/1.0/brand/39056/",
-        "ProductsUrl": "/api/1.0/products/peak-slumber~b~39056/",
-        "LogoSrc": "https://i.stpost.com/peak-slumber-cloud-sleeping-pad-inflatable~b~39056~160x100.jpg",
-        "Name": "PEAK SLUMBER"
-      },
-      "ListPrice": 34.99,
-      "FinalPrice": 34.99
-    },
-    {
-      "Id": "10HXY",
-      "IsClearance": false,
-      "IsNew": true,
-      "Url": "/api/1.0/product/10hxy/",
-      "WebUrl": "https://www.sierra.com/product/bounce/10hxy/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/10hxy/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/10hxy/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "-4°F Oscar Sleeping Bag - Mummy, Long",
-      "Name": "Nordisk -4°F Oscar Sleeping Bag - Mummy, Long",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hxy_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hxy_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hxy_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hxy_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long~a~10hxy_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Mustard",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/10hxy-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long-in-mustard~p~10hxy_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong>Excess</strong>. Stay warm while camping in extreme conditions with Nordisk&#39;s -4&#176;F Oscar sleeping bag, featuring a body-hugging <a class=\"glossaryTermLink\" href=\"/mummy~g~1946\" title=\"Mummy: - Mummy refers to the shape of sleeping bags designed to provide maximum warmth. Mummy-shaped bags taper from the head to the foot, reducing their volume and surface area, improving overall heat-retention properties. Mummy bags are typically more lightweight and take up less space than rectangular bags, which makes them ideal for backpacking.\">mummy</a> shape with Northguard S-Core insulation and an innovative tubic construction that traps air in for even heat distribution while pushing moisture out for maximum warmth and comfort.",
-      "SuggestedRetailPrice": 410,
-      "Brand": {
-        "Id": "33133",
-        "Url": "/api/1.0/brand/33133/",
-        "ProductsUrl": "/api/1.0/products/nordisk~b~33133/",
-        "LogoSrc": "https://i.stpost.com/nordisk-4-f-oscar-sleeping-bag-mummy-long~b~33133~160x100.jpg",
-        "Name": "Nordisk"
-      },
-      "ListPrice": 279.99,
-      "FinalPrice": 279.99
-    },
-    {
-      "Id": "832UD",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/832ud/",
-      "WebUrl": "https://www.sierra.com/product/bounce/832ud/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/832ud/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/832ud/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "Insulated Static V Sleeping Pad - Inflatable",
-      "Name": "Klymit Insulated Static V Sleeping Pad - Inflatable",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable-in-kings-camo~p~832ud_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable-in-kings-camo~p~832ud_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable-in-kings-camo~p~832ud_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable-in-kings-camo~p~832ud_01~600.jpg",
-        "ExtraImages": null
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Kings Camo",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/832ud-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable-in-kings-camo~p~832ud_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. With added R-value for top-drawer performance, Klymit‘s Insulated Static V sleeping pad harnesses four-season performance for unwinding under the stars on any night of the year. The body-mapped V-chambers limit air movement, and the ergonomic body mapping with dynamic side rails cradles your body all night long.",
-      "SuggestedRetailPrice": 110,
-      "Brand": {
-        "Id": "4173",
-        "Url": "/api/1.0/brand/4173/",
-        "ProductsUrl": "/api/1.0/products/klymit~b~4173/",
-        "LogoSrc": "https://i.stpost.com/klymit-insulated-static-v-sleeping-pad-inflatable~b~4173~160x100.jpg",
-        "Name": "Klymit"
-      },
-      "ListPrice": 79.99,
-      "FinalPrice": 79.99
-    },
-    {
-      "Id": "16PWR",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/16pwr/",
-      "WebUrl": "https://www.sierra.com/product/bounce/16pwr/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/16pwr/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/16pwr/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "Static V Luxe Sleeping Pad - Inflatable",
-      "Name": "Klymit Static V Luxe Sleeping Pad - Inflatable",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-rootbeer~p~16pwr_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-rootbeer~p~16pwr_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-rootbeer~p~16pwr_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-rootbeer~p~16pwr_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable~a~16pwr_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Rootbeer",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/16pwr-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-rootbeer~p~16pwr_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Enjoy a comfortable night under the stars with Klymit&#39;s Static V Luxe sleeping pad, made from durable materials with ergonomic raised V-chambers that support pressure points and maximize warmth -- all in a wider, thicker design.",
-      "SuggestedRetailPrice": 100,
-      "Brand": {
-        "Id": "4173",
-        "Url": "/api/1.0/brand/4173/",
-        "ProductsUrl": "/api/1.0/products/klymit~b~4173/",
-        "LogoSrc": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable~b~4173~160x100.jpg",
-        "Name": "Klymit"
-      },
-      "ListPrice": 69.99,
-      "FinalPrice": 69.99
-    },
-    {
-      "Id": "858YV",
-      "IsClearance": true,
-      "IsNew": false,
-      "Url": "/api/1.0/product/858yv/",
-      "WebUrl": "https://www.sierra.com/product/bounce/858yv/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/858yv/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/858yv/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "Core Sleeping Pad - 72x20x3.5”",
-      "Name": "ALPS Mountaineering Core Sleeping Pad - 72x20x3.5”",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-tangerine~p~858yv_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-tangerine~p~858yv_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-tangerine~p~858yv_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-tangerine~p~858yv_01~600.jpg",
-        "ExtraImages": null
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Tangerine",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/858yv-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-tangerine~p~858yv_01~160.jpg"
-        },
-        {
-          "ColorCode": "02",
-          "ColorName": "Gray",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/858yv-02.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35-in-gray~p~858yv_02~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong>Excess</strong>. With its ultralight weight, horizontal tube design and long-lasting ripstop <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> construction, the ALPS Mountaineering Core sleeping pad is a trusty companion for overnight ventures into the backcountry.",
-      "SuggestedRetailPrice": 80,
-      "Brand": {
-        "Id": "1156",
-        "Url": "/api/1.0/brand/1156/",
-        "ProductsUrl": "/api/1.0/products/alps-mountaineering~b~1156/",
-        "LogoSrc": "https://i.stpost.com/alps-mountaineering-core-sleeping-pad-72x20x35~b~1156~160x100.jpg",
-        "Name": "ALPS Mountaineering"
-      },
-      "ListPrice": 39,
-      "FinalPrice": 39
-    },
-    {
-      "Id": "16PWX",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/16pwx/",
-      "WebUrl": "https://www.sierra.com/product/bounce/16pwx/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/16pwx/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/16pwx/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "Static V Luxe Sleeping Pad - Inflatable",
-      "Name": "Klymit Static V Luxe Sleeping Pad - Inflatable",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-stone-grey~p~16pwx_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-stone-grey~p~16pwx_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-stone-grey~p~16pwx_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-stone-grey~p~16pwx_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable~a~16pwx_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Stone Grey",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/16pwx-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable-in-stone-grey~p~16pwx_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Enjoy a comfortable night under the stars with Klymit&#39;s Static V Luxe sleeping pad, made from durable materials with ergonomic raised V-chambers that support pressure points and maximize warmth -- all in a wider, thicker design.",
-      "SuggestedRetailPrice": 100,
-      "Brand": {
-        "Id": "4173",
-        "Url": "/api/1.0/brand/4173/",
-        "ProductsUrl": "/api/1.0/products/klymit~b~4173/",
-        "LogoSrc": "https://i.stpost.com/klymit-static-v-luxe-sleeping-pad-inflatable~b~4173~160x100.jpg",
-        "Name": "Klymit"
-      },
-      "ListPrice": 69.99,
-      "FinalPrice": 69.99
-    },
-    {
-      "Id": "843YW",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/843yw/",
-      "WebUrl": "https://www.sierra.com/product/bounce/843yw/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/843yw/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/843yw/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "20°F KSB Down Sleeping Bag - Mummy, 650 Fill Power",
-      "Name": "Klymit 20°F KSB Down Sleeping Bag - Mummy, 650 Fill Power",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power-in-black~p~843yw_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power-in-black~p~843yw_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power-in-black~p~843yw_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power-in-black~p~843yw_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power~a~843yw_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Black",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/843yw-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power-in-black~p~843yw_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. When the temps dip below freezing, Klymit&#39;s 20&#176;F KSB down sleeping bag surrounds your entire body in supersoft, fluffy down to trap body heat while you snooze.",
-      "SuggestedRetailPrice": 250,
-      "Brand": {
-        "Id": "4173",
-        "Url": "/api/1.0/brand/4173/",
-        "ProductsUrl": "/api/1.0/products/klymit~b~4173/",
-        "LogoSrc": "https://i.stpost.com/klymit-20-f-ksb-down-sleeping-bag-mummy-650-fill-power~b~4173~160x100.jpg",
-        "Name": "Klymit"
-      },
-      "ListPrice": 179.99,
-      "FinalPrice": 179.99
-    },
-    {
-      "Id": "10HPY",
-      "IsClearance": false,
-      "IsNew": true,
-      "Url": "/api/1.0/product/10hpy/",
-      "WebUrl": "https://www.sierra.com/product/bounce/10hpy/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/10hpy/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/10hpy/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "28°F Gorm Sleeping Bag - Mummy, Long",
-      "Name": "Nordisk 28°F Gorm Sleeping Bag - Mummy, Long",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long-in-limoges-blue~p~10hpy_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long-in-limoges-blue~p~10hpy_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long-in-limoges-blue~p~10hpy_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long-in-limoges-blue~p~10hpy_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long~a~10hpy_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["L"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Limoges Blue",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/10hpy-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long-in-limoges-blue~p~10hpy_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong>Excess</strong>. Recharge on cold nights with Nordisk&#39;s 28&#176;F Gorm sleeping bag, made from smooth <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> with warm, durable synthetic insulation and a wider shape for maximum comfort.",
-      "SuggestedRetailPrice": 240,
-      "Brand": {
-        "Id": "33133",
-        "Url": "/api/1.0/brand/33133/",
-        "ProductsUrl": "/api/1.0/products/nordisk~b~33133/",
-        "LogoSrc": "https://i.stpost.com/nordisk-28-f-gorm-sleeping-bag-mummy-long~b~33133~160x100.jpg",
-        "Name": "Nordisk"
-      },
-      "ListPrice": 149.99,
-      "FinalPrice": 149.99
-    },
-    {
-      "Id": "985KF",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/985kf/",
-      "WebUrl": "https://www.sierra.com/product/bounce/985kf/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/985kf/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/985kf/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "20°F Guide Sleeping Bag - Mummy (For Women)",
-      "Name": "The North Face 20°F Guide Sleeping Bag - Mummy (For Women)",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women-in-high-rise-grey-hyper-blue~p~985kf_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women-in-high-rise-grey-hyper-blue~p~985kf_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women-in-high-rise-grey-hyper-blue~p~985kf_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women-in-high-rise-grey-hyper-blue~p~985kf_01~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women~a~985kf_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["R"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "High Rise Grey/Hyper Blue",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/985kf-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women-in-high-rise-grey-hyper-blue~p~985kf_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Get durable-yet-lightweight warmth for comfortable slumbers under the stars in The North Face&#39;s Guide sleeping bag, designed with toasty HeatSeeker&#174; insulation in a water-resistant ripstop shell.",
-      "SuggestedRetailPrice": 209,
-      "Brand": {
-        "Id": "1440",
-        "Url": "/api/1.0/brand/1440/",
-        "ProductsUrl": "/api/1.0/products/the-north-face~b~1440/",
-        "LogoSrc": "https://i.stpost.com/the-north-face-20-f-guide-sleeping-bag-mummy-for-women~b~1440~160x100.jpg",
-        "Name": "The North Face"
-      },
-      "ListPrice": 149.99,
-      "FinalPrice": 149.99
-    },
-    {
-      "Id": "985TP",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/985tp/",
-      "WebUrl": "https://www.sierra.com/product/bounce/985tp/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/985tp/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/985tp/",
-        "ReviewCount": 0,
-        "AverageRating": 0
-      },
-      "NameWithoutBrand": "20°F Dolomite Double Sleeping Bag - Rectangular",
-      "Name": "The North Face 20°F Dolomite Double Sleeping Bag - Rectangular",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular-in-cosmic-blue-zinc-grey~p~985tp_02~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular-in-cosmic-blue-zinc-grey~p~985tp_02~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular-in-cosmic-blue-zinc-grey~p~985tp_02~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular-in-cosmic-blue-zinc-grey~p~985tp_02~600.jpg",
-        "ExtraImages": [
-          {
-            "Title": "Alternate View",
-            "Src": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular~a~985tp_2~600.1.jpg"
-          }
-        ]
-      },
-      "SizesAvailable": {
-        "ZIPPER": ["RH"]
-      },
-      "Colors": [
-        {
-          "ColorCode": "02",
-          "ColorName": "Cosmic Blue/Zinc Grey",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/985tp-02.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular-in-cosmic-blue-zinc-grey~p~985tp_02~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up with your special someone under the stars with The North Face&#39;s 20&#176;F Dolomite double sleeping bag, featuring durable <a class=\"glossaryTermLink\" href=\"/polyester~g~2001\" title=\"Polyester: - Polyester is a man-made fiber that is second only to cotton in worldwide use. Polyester is strong; resists wrinkling, stretching and shrinking; and has high resistance to abrasion. It dries quickly, is one of the most popular wicking fabrics and is woven with many other fabrics to add strength and durability.\">polyester</a> ripstop construction, toasty HeatSeeker&#174; Eco synthetic insulation and a roomy interior.",
-      "SuggestedRetailPrice": 159,
-      "Brand": {
-        "Id": "1440",
-        "Url": "/api/1.0/brand/1440/",
-        "ProductsUrl": "/api/1.0/products/the-north-face~b~1440/",
-        "LogoSrc": "https://i.stpost.com/the-north-face-20-f-dolomite-double-sleeping-bag-rectangular~b~1440~160x100.jpg",
-        "Name": "The North Face"
-      },
-      "ListPrice": 129.99,
-      "FinalPrice": 129.99
-    },
-    {
-      "Id": "268GC",
-      "IsClearance": true,
-      "IsNew": false,
-      "Url": "/api/1.0/product/268gc/",
-      "WebUrl": "https://www.sierra.com/product/bounce/268gc/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/268gc/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/268gc/",
-        "ReviewCount": 1,
-        "AverageRating": 3
-      },
-      "NameWithoutBrand": "Trail King Sleeping Pad - Self-Inflating, Regular",
-      "Name": "Therm-a-Rest Trail King Sleeping Pad - Self-Inflating, Regular",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular-in-yellow-green~p~268gc_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular-in-yellow-green~p~268gc_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular-in-yellow-green~p~268gc_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular-in-yellow-green~p~268gc_01~600.jpg",
-        "ExtraImages": null
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Yellow/Green",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/268gc-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular-in-yellow-green~p~268gc_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/2nds~g~2314\" title=\"2nds: - These are items with barely perceptible blemishes or slight irregularities that do not affect fit, performance or longevity such as an error in the stitching or a slight fading of the product’s color. Labels on 2nds are usually clipped or marked by the manufacturer, and 2nds are often offered at lower prices.\">2nds</a></strong>. Designed to inflate in a matter of seconds, Therm-a-Rest&#39;s Trail King SV sleeping pad offers unprecedented ease-of-use. Backpackers will appreciate 2.5&quot; of ultra-supportive <a class=\"glossaryTermLink\" href=\"/loft~g~1920\" title=\"Loft: - Loft refers to the amount of “dead space” or air throughout an insulating material inside a sleeping bag or garment. Since small air pockets evenly dispersed within insulation increase the insulating ability, loft is an important factor that determines how warm an article will be. Loft essentially describes the “puffiness” of down or synthetic insulation.\">loft</a> and the auto-reversing SpeedValve that lets you deflate the mattress in a flash as well.",
-      "SuggestedRetailPrice": 129.95,
-      "Brand": {
-        "Id": "3177",
-        "Url": "/api/1.0/brand/3177/",
-        "ProductsUrl": "/api/1.0/products/therm-a-rest~b~3177/",
-        "LogoSrc": "https://i.stpost.com/therm-a-rest-trail-king-sleeping-pad-self-inflating-regular~b~3177~160x100.jpg",
-        "Name": "Therm-a-Rest"
-      },
-      "ListPrice": 49,
-      "FinalPrice": 49
-    },
-    {
-      "Id": "665JR",
-      "IsClearance": false,
-      "IsNew": false,
-      "Url": "/api/1.0/product/665jr/",
-      "WebUrl": "https://www.sierra.com/product/bounce/665jr/?filterString=s~sleeping-bags%2F",
-      "AffiliateWebUrl": "https://www.sierra.com/product/bounce/665jr/?filterString=s~sleeping-bags%2F",
-      "Reviews": {
-        "ReviewsUrl": "/api/1.0/reviewsbyproduct/665jr/",
-        "ReviewCount": 1,
-        "AverageRating": 1
-      },
-      "NameWithoutBrand": "Regular 375 Foam Sleeping Pad",
-      "Name": "ALPS Mountaineering Regular 375 Foam Sleeping Pad",
-      "IsFamousBrand": false,
-      "Images": {
-        "PrimarySmall": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad-in-green~p~665jr_01~80.jpg",
-        "PrimaryMedium": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad-in-green~p~665jr_01~160.jpg",
-        "PrimaryLarge": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad-in-green~p~665jr_01~320.jpg",
-        "PrimaryExtraLarge": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad-in-green~p~665jr_01~600.jpg",
-        "ExtraImages": null
-      },
-      "SizesAvailable": {},
-      "Colors": [
-        {
-          "ColorCode": "01",
-          "ColorName": "Green",
-          "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/665jr-01.jpg",
-          "ColorPreviewImageSrc": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad-in-green~p~665jr_01~160.jpg"
-        }
-      ],
-      "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. ALPS Mountaineering Regular 375 sleeping pad is a dense, textured foam mat that protects and insulates against cold, uneven surfaces.",
-      "SuggestedRetailPrice": 16.99,
-      "Brand": {
-        "Id": "1156",
-        "Url": "/api/1.0/brand/1156/",
-        "ProductsUrl": "/api/1.0/products/alps-mountaineering~b~1156/",
-        "LogoSrc": "https://i.stpost.com/alps-mountaineering-regular-375-foam-sleeping-pad~b~1156~160x100.jpg",
-        "Name": "ALPS Mountaineering"
-      },
-      "ListPrice": 12.99,
-      "FinalPrice": 12.99
-    }
-  ]
-}
+        "PrimaryMedium": "https://i.stpost.com/marmot-30-f-trestles-elite-sleeping-bag-for-women-in-turf-green-garden-green~p~621cp
