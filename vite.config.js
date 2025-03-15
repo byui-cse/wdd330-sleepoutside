@@ -1,30 +1,23 @@
-import { resolve } from "path";
-import { defineConfig } from "vite";
+/* eslint-disable */
+import { defineConfig } from 'vite';
+
+const input = {
+  main: 'src/index.html',
+  cart: 'src/cart/index.html',
+  checkout: 'src/checkout/index.html',
+  'cedar-ridge-rimrock-2': 'src/product_pages/cedar-ridge-rimrock-2.html',
+  'marmot-ajax-3': 'src/product_pages/marmot-ajax-3.html',
+  'northface-alpine-3': 'src/product_pages/northface-alpine-3.html',
+  'northface-talus-4': 'src/product_pages/northface-talus-4.html',
+};
 
 export default defineConfig({
-  root: "src/",
+  root: 'src/',
 
   build: {
-    outDir: "../dist",
+    outDir: '../dist',
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, "src/index.html"),
-        cart: resolve(__dirname, "src/cart/index.html"),
-        checkout: resolve(__dirname, "src/checkout/index.html"),
-        product1: resolve(
-          __dirname,
-          "src/product_pages/cedar-ridge-rimrock-2.html",
-        ),
-        product2: resolve(__dirname, "src/product_pages/marmot-ajax-3.html"),
-        product3: resolve(
-          __dirname,
-          "src/product_pages/northface-alpine-3.html",
-        ),
-        product4: resolve(
-          __dirname,
-          "src/product_pages/northface-talus-4.html",
-        ),
-      },
+      input,
     },
   },
 });

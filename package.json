@@ -6,9 +6,10 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
-    "lint": "eslint *.js src/**/*.js",
-    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
-    "test": "jest"
+    "lint": "eslint *.mjs src/**/*.mjs",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css,mjs}\"",
+    "test": "jest",
+    "preview": "vite preview"
   },
   "author": "Shane Thompson",
   "license": "ISC",
