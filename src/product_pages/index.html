@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sleep Outside | Product Details</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Product Page Logic -->
+    <script src="../js/product.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <a href="../index.html">
+          Sleep<span class="highlight">Outside</span>
+        </a>
+      </div>
+
+      <div class="cart">
+        <a href="../cart/">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <path
+              d="M18.9 32.6c1.1 2.4 2.5 3.3 5.4 3.3 1.6 0 3.6-0.3 5.9-0.6 3.2-0.5 6.9-1 11.2-1 2.1 0 4.3 0.1 6.4 0.3 2.1 0.1 4.2 0.3 6.1 0.3 3.2 0 5.2-0.4 5.9-1.2"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="product-detail">
+        <!-- Brand -->
+        <h3 id="productBrand"></h3>
+
+        <!-- Product Name -->
+        <h2 id="productName" class="divider"></h2>
+
+        <!-- Product Image -->
+        <img
+          id="productImage"
+          class="divider"
+          src=""
+          alt=""
+        />
+
+        <!-- Price -->
+        <p id="productPrice" class="product-card__price"></p>
+
+        <!-- Color -->
+        <p id="productColor" class="product__color"></p>
+
+        <!-- Description -->
+        <p id="productDescription" class="product__description"></p>
+
+        <!-- Add to Cart -->
+        <div class="product-detail__add">
+          <button id="addToCart" data-id="">
+            Add to Cart
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; NOT a real business</footer>
+  </body>
+</html>
