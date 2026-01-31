@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Successful | Sleep Outside</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <img src="../images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <a href="../index.html">
+          Sleep <span class="highlight">Outside</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="success-message">
+        <h2>Thank you for your order!</h2>
+        <p>Your order has been successfully placed.</p>
+        <a href="../index.html" class="btn">Return to Home</a>
+      </section>
+    </main>
+
+    <footer>&copy; NOT a real business</footer>
+
+    <script type="module">
+      // Clear cart after successful order
+      localStorage.removeItem("so-cart");
+    </script>
+  </body>
+</html>
