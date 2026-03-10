@@ -1,37 +1,37 @@
 import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
-// Select the Add to Cart button (if it exists on the page)
+// Select the Add to Cart button
 const addBtn = document.getElementById("addToCart");
 
 if (addBtn) {
   addBtn.addEventListener("click", () => {
-    // Get product info from data attributes
-    const id = addBtn.dataset.id;
-    const name = addBtn.dataset.name;
-    const price = parseFloat(addBtn.dataset.price);
-    const image = addBtn.dataset.image;
-    const color = addBtn.dataset.color;
+    // Get product info from the page
+    const productId = addBtn.dataset.id;
+    const productName = document.getElementById("productName").textContent;
+    const productPrice = parseFloat(document.getElementById("productPrice").textContent.replace("$", ""));
+    const productImage = document.getElementById("productImage").src;
 
-    // Get the existing cart from localStorage, or empty array if none
-    const cart = getLocalStorage("so-cart") || [];
+    // Get current cart from localStorage
+    const cart = getLocalStorage("cart") || [];
 
-    // Check if the product is already in the cart
-    const exists = cart.find(item => item.id === id);
-
-    if (!exists) {
+    // Check if product already exists in cart
+    const existingProduct = cart.find(item => item.id === productId);
+    if (existingProduct) {
+      existingProduct.quantity += 1;
+    } else {
       cart.push({
-        id,
-        Name: name,
-        FinalPrice: price,
-        Image: image,
-        Colors: [{ ColorName: color }]
+        id: productId,
+        name: productName,
+        price: productPrice,
+        image: productImage,
+        quantity: 1
       });
     }
 
-    // Save updated cart to localStorage
-    setLocalStorage("so-cart", cart);
+    // Save updated cart back to localStorage
+    setLocalStorage("cart", cart);
 
-    // Redirect to success page
-    window.location.href = "../checkout/success.html";
+    // Optional: feedback to user
+    alert(`${productName} has been added to your cart!`);
   });
 }

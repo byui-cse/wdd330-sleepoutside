@@ -5,38 +5,50 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sleep Outside | Home</title>
+
   <link rel="stylesheet" href="assets/utils-C0BBSZZq.css">
+
   <script type="module" crossorigin src="assets/main--nU5oUgJ.js"></script>
   <link rel="modulepreload" href="assets/utils-kaFXJsRg.js" crossorigin>
   <link rel="modulepreload" href="assets/ProductData-Dx0C3TkS.js" crossorigin>
 </head>
 
 <body>
+
   <!-- Header -->
   <header class="divider" id="main-header">
     <div class="logo">
       <img src="images/noun_Tent_2517.svg" alt="Tent logo for Sleep Outside" />
-      <a href="index.html"> Sleep<span class="highlight">Outside</span></a>
+      <a href="index.html">Sleep<span class="highlight">Outside</span></a>
     </div>
+
     <div class="cart">
       <a href="cart/index.html" aria-label="Shopping Cart">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-          <!-- SVG path remains the same -->
+          <!-- SVG kept the same -->
         </svg>
       </a>
     </div>
   </header>
 
-  <!-- Main Hero Section -->
+  <!-- Main Content -->
   <main class="divider">
+
+    <!-- Hero Section -->
     <section class="hero" aria-labelledby="hero-heading">
       <h1 id="hero-heading" class="visually-hidden">Sleep Outside - Home</h1>
-      <img src="images/banner-sm.jpg" srcset="images/banner-sm.jpg 500w, images/banner.jpg"
-        alt="High mountain lake with tent" />
+
+      <img
+        src="images/banner-sm.jpg"
+        srcset="images/banner-sm.jpg 500w, images/banner.jpg"
+        alt="High mountain lake with tent"
+      />
+
       <div class="logo logo--square">
         <img src="images/noun_Tent_2517.svg" alt="Tent logo for Sleep Outside" />
         <div>Sleep<span class="highlight">Outside</span></div>
       </div>
+
       <div class="mission">
         <p>
           Our mission is to provide you with everything you need to sleep
@@ -47,54 +59,82 @@
 
     <!-- Products Section -->
     <section class="products" aria-labelledby="top-products-heading">
+
       <h2 id="top-products-heading">Top Products</h2>
+
+      <!-- 🔎 Quick Product Lookup -->
+      <input
+        type="text"
+        id="product-search"
+        placeholder="Search products by name or brand..."
+        aria-label="Search products"
+      />
+
       <ul class="product-list">
+
         <li class="product-card">
           <a href="product_pages/?product=880RR">
-            <img src="images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg"
-              alt="Marmot Ajax Tent - 3-Person, 3-Season" />
+            <img
+              src="images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg"
+              alt="Marmot Ajax Tent - 3-Person, 3-Season"
+            />
             <h3 class="card__brand">Marmot</h3>
             <h2 class="card__name">Ajax Tent - 3-Person, 3-Season</h2>
             <p class="product-card__price">$199.99</p>
           </a>
         </li>
+
         <li class="product-card">
           <a href="product_pages/?product=985RF">
             <img
               src="images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg"
-              alt="Talus Tent - 4-Person, 3-Season" />
+              alt="Talus Tent - 4-Person, 3-Season"
+            />
             <h3 class="card__brand">The North Face</h3>
             <h2 class="card__name">Talus Tent - 4-Person, 3-Season</h2>
             <p class="product-card__price">$199.99</p>
           </a>
         </li>
+
         <li class="product-card">
           <a href="product_pages/?product=985PR">
             <img
               src="images/tents/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg"
-              alt="Alpine Guide Tent - 3-Person, 4-Season" />
+              alt="Alpine Guide Tent - 3-Person, 4-Season"
+            />
             <h3 class="card__brand">The North Face</h3>
             <h2 class="card__name">Alpine Guide Tent - 3-Person, 4-Season</h2>
             <p class="product-card__price">$349.99</p>
           </a>
         </li>
+
         <li class="product-card">
           <a href="product_pages/?product=344YJ">
-            <img src="images/tents/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg"
-              alt="Rimrock Tent - 2-Person, 3-Season" />
+            <img
+              src="images/tents/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg"
+              alt="Rimrock Tent - 2-Person, 3-Season"
+            />
             <h3 class="card__brand">Cedar Ridge</h3>
             <h2 class="card__name">Rimrock Tent - 2-Person, 3-Season</h2>
             <p class="product-card__price">$69.99</p>
           </a>
         </li>
+
       </ul>
+
     </section>
+
   </main>
 
   <!-- Footer -->
   <footer class="divider" id="main-footer">
-    <p>&copy; 2026 ⛺ SleepOutside ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway Worldwide Online</p>
+    <p>
+      &copy; 2026 ⛺ SleepOutside ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway Worldwide Online
+    </p>
   </footer>
-</body>
 
+  <!-- Quick Lookup Script -->
+  <script type="module" src="js/quickLookup.js"></script>
+
+</body>
 </html>

@@ -1,34 +1,86 @@
-import { getLocalStorage } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
-// Render the cart items
-function renderCartContents() {
-  const cartItems = getLocalStorage("so-cart") || []; // handle null
+const cartContainer = document.getElementById("cartContainer");
+const cartTotal = document.getElementById("cartTotal");
 
-  const container = document.querySelector(".product-list");
+function renderCart() {
+  const cart = getLocalStorage("cart") || [];
+  cartContainer.innerHTML = "";
 
-  if (cartItems.length === 0) {
-    container.innerHTML = `<p class="empty-cart">Your cart is empty. <a href="../index.html">Go shopping</a>!</p>`;
+  if (cart.length === 0) {
+    cartContainer.innerHTML = "<p>Your cart is empty.</p>";
+    cartTotal.textContent = "$0.00";
     return;
   }
 
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  container.innerHTML = htmlItems.join("");
+  let total = 0;
+
+  cart.forEach((item, index) => {
+    const itemTotal = item.price * item.quantity;
+    total += itemTotal;
+
+    const cartItem = document.createElement("div");
+    cartItem.classList.add("cart-item");
+    cartItem.innerHTML = `
+      <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+      <div class="cart-item-details">
+        <h3>${item.name}</h3>
+        <p>Price: $${item.price.toFixed(2)}</p>
+        <p>Quantity: 
+          <button class="decrease" data-index="${index}">-</button>
+          ${item.quantity}
+          <button class="increase" data-index="${index}">+</button>
+        </p>
+        <p>Total: $${itemTotal.toFixed(2)}</p>
+        <button class="remove" data-index="${index}">Remove</button>
+      </div>
+    `;
+    cartContainer.appendChild(cartItem);
+  });
+
+  cartTotal.textContent = `$${total.toFixed(2)}`;
+
+  // Attach event listeners after rendering
+  attachCartEvents();
 }
 
-// Template for each cart item
-function cartItemTemplate(item) {
-  return `
-  <li class="cart-card divider">
-    <a href="#" class="cart-card__image">
-      <img src="${item.Image}" alt="${item.Name}" />
-    </a>
-    <a href="#">
-      <h2 class="card__name">${item.Name}</h2>
-    </a>
-    <p class="cart-card__color">${item.Colors[0].ColorName}</p>
-    <p class="cart-card__quantity">qty: 1</p>
-    <p class="cart-card__price">$${item.FinalPrice}</p>
-  </li>`;
+function attachCartEvents() {
+  const removeBtns = document.querySelectorAll(".remove");
+  const increaseBtns = document.querySelectorAll(".increase");
+  const decreaseBtns = document.querySelectorAll(".decrease");
+  const cart = getLocalStorage("cart") || [];
+
+  removeBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const index = parseInt(btn.dataset.index);
+      cart.splice(index, 1);
+      setLocalStorage("cart", cart);
+      renderCart();
+    });
+  });
+
+  increaseBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const index = parseInt(btn.dataset.index);
+      cart[index].quantity += 1;
+      setLocalStorage("cart", cart);
+      renderCart();
+    });
+  });
+
+  decreaseBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const index = parseInt(btn.dataset.index);
+      if (cart[index].quantity > 1) {
+        cart[index].quantity -= 1;
+      } else {
+        cart.splice(index, 1);
+      }
+      setLocalStorage("cart", cart);
+      renderCart();
+    });
+  });
 }
 
-renderCartContents();
+// Initialize cart on page load
+renderCart();
