@@ -255,6 +255,36 @@ button {
     font-size: inherit;
     grid-template-columns: 150px auto 15%;
   }
+
+  /* Search Feature Styles */
+
+.search-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#product-search {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+  width: 250px;
+}
+
+#search-btn {
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: var(--tertiary-color);
+}
 }
 
 footer {
