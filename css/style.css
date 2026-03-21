@@ -265,6 +265,7 @@ button {
   gap: 10px;
 }
 
+
 #product-search {
   padding: 8px;
   font-size: 16px;
@@ -272,6 +273,7 @@ button {
   border-radius: 4px;
   width: 250px;
 }
+
 
 #search-btn {
   padding: 8px 16px;
@@ -290,4 +292,24 @@ button {
 footer {
   font-size: var(--small-font);
   padding: 1em;
+}
+#cart-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+#cart-count {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
 }

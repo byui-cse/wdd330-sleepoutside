@@ -1,14 +1,20 @@
 import { getLocalStorage, qs } from "./utils.mjs";
 
-function updateCartCount() {
-  const cart = getLocalStorage("so-cart");
+export function updateCartCount() {
+  const cart = getLocalStorage("cart") || [];
   const countElement = qs("#cart-count");
 
   if (!countElement) return;
 
-  const total = cart.reduce((sum, item) => sum + item.quantity, 0);
+  const total = cart.reduce(
+    (sum, item) => sum + item.quantity,
+    0
+  );
 
   countElement.textContent = total;
 }
 
-updateCartCount();
+// Run when page loads
+document.addEventListener("DOMContentLoaded", () => {
+  updateCartCount();
+});

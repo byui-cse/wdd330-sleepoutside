@@ -1,4 +1,5 @@
 import { getLocalStorage, setLocalStorage } from "./utils.mjs";
+import { updateCartCount } from "./main.js";
 
 const cartContainer = document.getElementById("cartContainer");
 const cartTotal = document.getElementById("cartTotal");
@@ -10,6 +11,7 @@ function renderCart() {
   if (cart.length === 0) {
     cartContainer.innerHTML = "<p>Your cart is empty.</p>";
     cartTotal.textContent = "$0.00";
+    updateCartCount(); // ✅ update when empty
     return;
   }
 
@@ -40,7 +42,6 @@ function renderCart() {
 
   cartTotal.textContent = `$${total.toFixed(2)}`;
 
-  // Attach event listeners after rendering
   attachCartEvents();
 }
 
@@ -55,6 +56,7 @@ function attachCartEvents() {
       const index = parseInt(btn.dataset.index);
       cart.splice(index, 1);
       setLocalStorage("cart", cart);
+      updateCartCount(); // ✅ FIX
       renderCart();
     });
   });
@@ -64,6 +66,7 @@ function attachCartEvents() {
       const index = parseInt(btn.dataset.index);
       cart[index].quantity += 1;
       setLocalStorage("cart", cart);
+      updateCartCount(); // ✅ FIX
       renderCart();
     });
   });
@@ -77,10 +80,12 @@ function attachCartEvents() {
         cart.splice(index, 1);
       }
       setLocalStorage("cart", cart);
+      updateCartCount(); // ✅ FIX
       renderCart();
     });
   });
 }
 
-// Initialize cart on page load
+// Initialize cart
 renderCart();
+updateCartCount(); // ✅ also update on load
