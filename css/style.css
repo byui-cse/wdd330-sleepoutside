@@ -313,3 +313,56 @@ footer {
   padding: 2px 6px;
   border-radius: 50%;
 }
+.clear-cart-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.clear-cart-btn:hover {
+  background-color: darkred;
+}
+/* CART BUTTONS */
+
+.qty-btn {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.qty-btn:hover {
+  background-color: #bbb;
+}
+
+.qty-number {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.remove-btn:hover {
+  background-color: darkred;
+}
+
+.cart-item {
+  list-style: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
