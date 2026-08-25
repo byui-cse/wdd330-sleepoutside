@@ -152,6 +152,82 @@ button {
 }
 
 .products {
+  .checkout {
+    padding: 1rem;
+  }
+
+  .checkout-form {
+    max-width: 700px;
+    margin: auto;
+    padding: 0.5em;
+  }
+
+  .checkout-form label {
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  .checkout-form input {
+    width: 100%;
+    padding: 0.35em;
+    font-size: 1.1em;
+  }
+
+  .checkout-form fieldset {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  .checkout-summary ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .checkout-summary li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .checkout-summary p {
+    margin: 0;
+  }
+
+  .list-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+  }
+
+  .list-footer a {
+    padding: 0.5em 1em;
+    background-color: var(--primary-color);
+    color: var(--dark-grey);
+    text-decoration: none;
+  }
+
+  .alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: var(--primary-color);
+    border: 1px solid darkorange;
+  }
+
+  .alert p {
+    margin: 0;
+  }
+
+  .alert button {
+    display: inline;
+    margin: 0;
+    padding: 0.1em 0.4em;
+    background: transparent;
+    color: var(--dark-grey);
+    font-size: 1em;
+  }
+
   margin-top: 2rem;
   padding: 1rem;
 }
