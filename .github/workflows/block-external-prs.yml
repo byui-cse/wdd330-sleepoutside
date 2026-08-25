@@ -1,0 +1,49 @@
+name: Block External PRs
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  check-org-membership:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if PR author is a byui-cse org member
+        id: check_membership
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const author = context.payload.pull_request.user.login;
+            try {
+              await github.rest.orgs.checkMembershipForUser({
+                org: 'byui-cse',
+                username: author,
+              });
+              console.log(`${author} is a member of byui-cse`);
+              return true;
+            } catch (e) {
+              console.log(`${author} is NOT a member of byui-cse`);
+              return false;
+            }
+          result-encoding: string
+
+      - name: Close PR if author is not a byui-cse member
+        if: steps.check_membership.outputs.result == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const author = context.payload.pull_request.user.login;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `Hi @${author}, thank you for your interest! This repository is a course template for BYU-Idaho CSE students and only accepts contributions from members of the [byui-cse](https://github.com/byui-cse) organization. This pull request will be closed.`,
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              state: 'closed',
+            });
