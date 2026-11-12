@@ -261,3 +261,34 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+/* Product detail discount styling */
+.product-detail__pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  margin: 1rem 0;
+}
+
+.product-detail__discount {
+  background-color: #b12704;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.product-detail__original-price {
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.product-detail__pricing .product-card__price {
+  color: #b12704;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
