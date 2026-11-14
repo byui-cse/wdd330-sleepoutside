@@ -1,4 +1,3 @@
-
 :root {
   --font-body: Arial, Helvetica, sans-serif;
   --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -124,34 +123,12 @@ button {
   text-align: center;
 }
 
-.cart a {
-  position: relative;
-  display: inline-block;
-}
-
 .cart svg {
   width: 25px;
 }
 
 .cart:hover svg {
   fill: gray;
-}
-
-/* Cart item count styles */
-.cart-count {
-  position: absolute;
-  top: -0.5rem;
-  right: -0.5rem;
-  background-color: var(--primary-color);
-  color: var(--dark-grey);
-  font-size: 0.7rem;
-  font-weight: bold;
-  min-width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* End cart icon styles */

@@ -1,11 +1,6 @@
 
-
 import ProductData from './ProductData.mjs';
-import {
-  qs,
-  setLocalStorage,
-  updateCartCount,
-} from './utils.mjs';
+import { qs, setLocalStorage } from './utils.mjs';
 
 const dataSource = new ProductData('tents');
 
@@ -35,18 +30,14 @@ function renderProductDetails(product) {
       </button>
     </div>
   `;
-  
+
   qs('.product-detail').innerHTML = productHTML;
 }
 
 function addProductToCart(product) {
   const currentCart = JSON.parse(localStorage.getItem('so-cart')) || [];
-
   currentCart.push(product);
-
   setLocalStorage('so-cart', currentCart);
-
-  updateCartCount();
 }
 
 async function addToCartHandler(e) {
@@ -55,8 +46,6 @@ async function addToCartHandler(e) {
 }
 
 async function init() {
-  updateCartCount();
-
   const productId = new URLSearchParams(window.location.search).get('product');
 
   if (!productId) {
