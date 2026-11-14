@@ -36,3 +36,13 @@ export function renderListWithTemplate(
   const htmlStrings = list.map(templateFn);
   parentElement.insertAdjacentHTML(position, htmlStrings.join(""));
 }
+
+// Update the number displayed on the cart icon
+export function updateCartCount() {
+  const cartItems = getLocalStorage('so-cart') || [];
+  const cartCount = document.querySelector('.cart-count');
+
+  if (cartCount) {
+    cartCount.textContent = cartItems.length;
+  }
+}
